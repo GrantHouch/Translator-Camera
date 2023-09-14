@@ -21,8 +21,8 @@
                     "createdAt": "2023-05-19T10:18:27.828Z",
                     "updatedAt": "2023-05-19T10:18:27.828Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cfd85b362bebfb0abf50/projects/65006b698dd71e7de76440e2/assets/65006b698dd71e6c9d6440e4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20230912%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230912T134514Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=418071b3015fd33d851811850907d80760c9a62b3d858b9316ea2f61f99ee1b476b6ac8ef03d88734e0de19bce54bfb35e8a74670116fe040e26e8bde3c30330d8d4e5eee8fbd6e8c665a341b5b95cf8974d16a8f0ffbe49b8e2cf23513a75a9e4a0df38402709a2293af3aeb9f04ea8dd4d15df00c5e0ce0f95455bb80c2cc424e8206cbbc284e86343c519a3a3e5549af35b216c82f0ceb6279d39f45b9c5b4cd197dddc0dc4cd5f3c2731c37715ef324b37e3364451fa34b220e8ee24ba5694e7d0e500ebcf482bc4d40ea2d22d5898f873dbc1309ddeedb5e2da59d862a10d76b274cdcd6494c2a965df4fc45f092f88e05370c4baab6c5320e20aa44135",
-                    "signedUrlExpirationTime": 1694699114052
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cfd85b362bebfb0abf50/projects/65006b698dd71e7de76440e2/assets/65006b698dd71e6c9d6440e4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20230914%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230914T140412Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=00ded2994d680455fb1bf1127cb9a5767c24414b4f6115ff23e3195c7fad7a2cc03c1fb0491444eab263aa556cfa387c1081ec754a7d4abb10c6eb2ab33b0378086993e31e67db1cbee197ae83e73cca3f52de04e9aaf2d6aaf5f413b21a9749bac19ba410a694883966480cf1ad49fc34fdcbd8d55e7ae59c9e6c4665d4127e7a3670e25a100bc605302270f2b05c998d4e761c1d704957d6201b27d6c7cc426ba5990638305af376f5d8672b3d484c8cbfe5acca8651d723f294cbd096b5cd90949a706f6925ffb85d184c6ee23994b96ef975c42aad5a18b1d4d11a2f6d8ba7d406021dee25c8fb38f0900293cda87fef6d95178ac66bfbfcb234f6ce895e",
+                    "signedUrlExpirationTime": 1694873052331
                 }
             },
             "backendUpgradeVersion": 21,
@@ -60,7 +60,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "Translator App (Lecture Tues)",
+            "projectName": "Translator App (Lecture Thurs)",
             "settings": {
                 "teamId": null,
                 "appName": null,
