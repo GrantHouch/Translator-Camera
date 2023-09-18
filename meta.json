@@ -8,33 +8,26 @@
                 }
             },
             "assets": {
-                "65006b698dd71e6c9d6440e4": {
+                "64fefd3b8dd71ec2d65cae2f": {
                     "externalStorageType": "GCS",
-                    "_id": "65006b698dd71e6c9d6440e4",
-                    "size": "9131",
-                    "mimetype": "image/jpeg",
+                    "_id": "64fefd3b8dd71ec2d65cae2f",
+                    "size": "24123",
+                    "mimetype": "image/png",
                     "encoding": "7bit",
-                    "originalname": "images.jpeg",
-                    "backendURI": "/project/65006b698dd71e7de76440e2/getasset/65006b698dd71e6c9d6440e4",
-                    "name": "images.jpeg",
-                    "externalName": "users/64f9cfd85b362bebfb0abf50/projects/65006b698dd71e7de76440e2/assets/65006b698dd71e6c9d6440e4",
-                    "createdAt": "2023-05-19T10:18:27.828Z",
-                    "updatedAt": "2023-05-19T10:18:27.828Z",
+                    "originalname": "305soft-high-resolution-color-logo.png",
+                    "backendURI": "/project/64fe23fd0473c1eb343d5595/getasset/64fefd3b8dd71ec2d65cae2f",
+                    "name": "305soft-high-resolution-color-logo.png",
+                    "externalName": "users/64f9cfd85b362bebfb0abf50/projects/64fe23fd0473c1eb343d5595/assets/64fefd3b8dd71ec2d65cae2f",
+                    "createdAt": "2023-09-11T11:42:51.273Z",
+                    "updatedAt": "2023-09-11T11:42:51.273Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cfd85b362bebfb0abf50/projects/65006b698dd71e7de76440e2/assets/65006b698dd71e6c9d6440e4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20230914%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230914T140412Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=00ded2994d680455fb1bf1127cb9a5767c24414b4f6115ff23e3195c7fad7a2cc03c1fb0491444eab263aa556cfa387c1081ec754a7d4abb10c6eb2ab33b0378086993e31e67db1cbee197ae83e73cca3f52de04e9aaf2d6aaf5f413b21a9749bac19ba410a694883966480cf1ad49fc34fdcbd8d55e7ae59c9e6c4665d4127e7a3670e25a100bc605302270f2b05c998d4e761c1d704957d6201b27d6c7cc426ba5990638305af376f5d8672b3d484c8cbfe5acca8651d723f294cbd096b5cd90949a706f6925ffb85d184c6ee23994b96ef975c42aad5a18b1d4d11a2f6d8ba7d406021dee25c8fb38f0900293cda87fef6d95178ac66bfbfcb234f6ce895e",
-                    "signedUrlExpirationTime": 1694873052331
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cfd85b362bebfb0abf50/projects/64fe23fd0473c1eb343d5595/assets/64fefd3b8dd71ec2d65cae2f?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20230918%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230918T164547Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=3716e1ddf31f71815fbc34b01e20d24d5cd9ea262f29342169cb57f08bde0ee13f0cb66ff1fb52618f1b8c5dcd910752b825c0412633d7b76f6e18d43743f2516a5ac880f6674f0cbcae0d7fad1a2b2bb760efbf9f24694b1a1673f0c1967755fccc7927f5778011ba92017c2596439e15a722b4f39f9ce276c110ef551f774817bfc61bf56c92ab368714289dc79461b3b3f18969e1ba07e75b3499a81e8f041f917d6c9e40e21e53f57b1b27cbaea4d6e739e9cc727f54f135d6745a6775ad7cdb54377c4da24eec23bbf825bc9447bdf37b4d0879e75a7136f501b9ca4b023ca59d57def8ef85daaa0ea3a73ff6c814846b2c6ebb2cac823616d4843a1249",
+                    "signedUrlExpirationTime": 1695228347237
                 }
             },
             "backendUpgradeVersion": 21,
             "blockly": {
-                "b06b5f8c-a04d-43c1-9a72-5471132b0830": {
-                    "xml": "",
-                    "permissions": {
-                        "android": [],
-                        "ios": []
-                    }
-                },
-                "01ba6440-f089-4fac-a77b-9ff75112369b": {
+                "072980cb-fb0c-4472-aacf-b06c69b750a5": {
                     "xml": "",
                     "permissions": {
                         "android": [
@@ -45,22 +38,50 @@
                                 "name": "NSCameraUsageDescription",
                                 "label": "Camera",
                                 "hint": "Describe why your app uses the camera."
+                            },
+                            {
+                                "name": "NSPhotoLibraryUsageDescription",
+                                "label": "Photos",
+                                "hint": "Describe why your app uses photos."
+                            }
+                        ]
+                    }
+                },
+                "29be7357-5ce3-4290-b06b-82b470d5efcc": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [
+                            "android.permission.CAMERA",
+                            "android.permission.RECORD_AUDIO"
+                        ],
+                        "ios": [
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
+                            },
+                            {
+                                "name": "NSMicrophoneUsageDescription",
+                                "label": "Microphone",
+                                "hint": "Describe why your app uses the microphone."
                             }
                         ]
                     }
                 }
             },
-            "categories": [],
+            "categories": [
+                "Photo & Video"
+            ],
             "components": {
                 "children": [
-                    "Screen1.b06b5f8c-a04d-43c1-9a72-5471132b0830",
-                    "Screen2.01ba6440-f089-4fac-a77b-9ff75112369b"
+                    "Photo Screen.072980cb-fb0c-4472-aacf-b06c69b750a5",
+                    "Video Screen.29be7357-5ce3-4290-b06b-82b470d5efcc"
                 ]
             },
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "Translator App (Lecture Thurs)",
+            "projectName": "Camera App",
             "settings": {
                 "teamId": null,
                 "appName": null,
@@ -72,10 +93,10 @@
                 "androidVersionCode": 1,
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
-                "firebaseAPIKey": "",
-                "firebaseDatabaseURL": "",
-                "stripePublishableKeyTest": "",
-                "stripePublishableKeyLive": "",
+                "firebaseAPIKey": null,
+                "firebaseDatabaseURL": null,
+                "stripePublishableKeyTest": null,
+                "stripePublishableKeyLive": null,
                 "stripeAccountId": null,
                 "stripeTestMode": true,
                 "isPublic": true,
@@ -84,16 +105,17 @@
                 "pushNotificationAndroidAppId": null,
                 "pushNotificationIOSAppId": null,
                 "pushNotificationGeolocationEnabled": null,
-                "yandexAPIKey": "",
-                "imageRecognizerServerURL": "",
-                "imageRecognizerSubscriptionKey": "",
-                "cloudName": "",
-                "cloudinaryAPIKey": "",
-                "cloudinaryAPISecret": "",
+                "yandexAPIKey": null,
+                "imageRecognizerServerURL": null,
+                "imageRecognizerSubscriptionKey": null,
+                "cloudName": null,
+                "cloudinaryAPIKey": null,
+                "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
                         "usageDescriptions": {
-                            "NSCameraUsageDescription": ""
+                            "NSCameraUsageDescription": "",
+                            "NSMicrophoneUsageDescription": ""
                         }
                     }
                 },
@@ -120,10 +142,10 @@
                 "androidVersionCode": 1,
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
-                "firebaseAPIKey": "",
-                "firebaseDatabaseURL": "",
-                "stripePublishableKeyTest": "",
-                "stripePublishableKeyLive": "",
+                "firebaseAPIKey": null,
+                "firebaseDatabaseURL": null,
+                "stripePublishableKeyTest": null,
+                "stripePublishableKeyLive": null,
                 "stripeAccountId": null,
                 "stripeTestMode": true,
                 "isPublic": true,
@@ -132,16 +154,17 @@
                 "pushNotificationAndroidAppId": null,
                 "pushNotificationIOSAppId": null,
                 "pushNotificationGeolocationEnabled": null,
-                "yandexAPIKey": "",
-                "imageRecognizerServerURL": "",
-                "imageRecognizerSubscriptionKey": "",
-                "cloudName": "",
-                "cloudinaryAPIKey": "",
-                "cloudinaryAPISecret": "",
+                "yandexAPIKey": null,
+                "imageRecognizerServerURL": null,
+                "imageRecognizerSubscriptionKey": null,
+                "cloudName": null,
+                "cloudinaryAPIKey": null,
+                "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
                         "usageDescriptions": {
-                            "NSCameraUsageDescription": ""
+                            "NSCameraUsageDescription": "",
+                            "NSMicrophoneUsageDescription": ""
                         }
                     }
                 },
@@ -166,7 +189,7 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "0",
+            "totalCopy": "3",
             "totalStar": "0",
             "starAction": "star",
             "variables": {},
